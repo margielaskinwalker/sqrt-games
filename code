@@ -1,0 +1,26 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+
+
+int main() {
+	int num;
+
+	cout << "ENTER VALUE" << endl;
+	cin >> num;
+
+
+
+	while (num > 0) {
+		if (num % 2 != 0) {
+			num--;
+		}
+		else {
+			cout <<num<< "         "<< sqrt (num);
+			//remove num for something kinda cool
+			num--;
+		}
+	}
+
+
+}
